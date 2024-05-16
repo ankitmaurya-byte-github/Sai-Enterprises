@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH - Sai Enterprises</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #fffefe;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #5b2727;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        nav ul li a:hover {
+            color: #2E8B57;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            max-width: 800px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        .glow {
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+            }
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sai Enterprises</h1>
+        <h1 class="glow">MATH</h1>
+    </header>
+
+    <main>
+        <section id="math">
+            <h2>MATH</h2>
+            <div class="image-container">
+                <img src="math/1.jpg" alt="Math Image">
+            </div>
+            <div class="image-container">
+                <img src="math/2.jpg" alt="Math Image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sai Enterprises. All rights reserved.</p>
+    </footer>
+</body>
+</html>
